@@ -5,7 +5,7 @@ public class Main
     public static void main(String[] args) {
        int[] arr={4,1,-2,-1,1};
        int target=0;
-       Map<Integer, Integer> map_ = new HashMap<>();//to store arr ele and it's index
+       Map<Integer, Integer> map_ = new HashMap<>();
         for (int i = 0; i <arr.length; i++)
         {
             if(map_.containsKey(target - arr[i]))
